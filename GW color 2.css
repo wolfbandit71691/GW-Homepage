@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+/* HTML and Body Styles */
+
+html {
+	background-color: rgb(230, 230, 230)
+}
+
+/* Heading Styles */
+h1, h2, h3, p, dl, nav {
+	color: black;
+	background-color: rgb(188, 188, 188);
+}
+
+/* Border Styles */

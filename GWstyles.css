@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+/*
+
+GREAT WOLF style sheet
+Author: Jim Andrews
+Date: 12/27/20
+
+
+/* Body styles */
+
+
+body {
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+	max-width: 1930px;
+	min-width: 940px;
+	max-height: 5000px;
+	min-height: 2000px;
+}
+
+
+/* Structural Styles */
+article, aside, figcaption, figure, footer, header, 
+main, nav, section{
+   display: block;
+}
+
+/*Typograhic */
+address, article, aside, blockquote, body, cite, div, 
+dl, dt, dd, em, figcaption, figure, footer, h1, h2, h3,
+h4, h5, h6, header, html, img, li, main, nav, ol, p, 
+section, span, ul {
+   background: transparent;
+   font-size: 100%;
+   margin: 0;
+   padding: 0;
+   vertical-align: baseline;
+}
+
+/* Body Header Styles */
+
+body > header > img {
+	display: block;
+	width: 100%;
+}
+
+body > header > nav.horizontalNavigation li {
+   width: 25%;
+}
+
+
+
+ /* horizontal Navigation */
+ nav.horizontalNavigation li {
+   display: block;
+   float: left;
+   padding-bottom: 20px;
+   padding-top: 20px;
+}
+
+nav.horizontalNavigation a {
+   display: block;
+   text-align: center;
+}
+
+nav ul {
+   list-style: none;
+   list-style-image: none;
+}
+
+nav a {
+   text-decoration: none;
+}
+
+
+nav li {
+	width: 25%;
+	display: inline;
+	list-style: none;
+}
+
+.float_break{
+	clear: both;
+}
+
+
+nav ul {
+   list-style: none;
+   list-style-image: none;
+}
+
+nav a {
+   text-decoration: none;
+}
+
+/* section styles */
+section#shortintro {
+   padding: 20px;
+   text-align: center;
+}
+
+
+
+
